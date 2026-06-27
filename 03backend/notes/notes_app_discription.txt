@@ -1,0 +1,32 @@
+note will look like object 
+it will contain title discription
+note : {
+    title : "title of the note",
+    discription : "discription of the note"
+} 
+
+
+we create array of notes so that user can input multiple notes 
+
+const notes = [
+        {
+    title : "title of the note",
+    discription : "discription of the note"
+    } 
+        {
+    title : "title of the note",
+    discription : "discription of the note"
+    } 
+        {
+    title : "title of the note",
+    discription : "discription of the note"
+    }
+    .
+    .
+    .
+    .
+    .
+    .
+    so on  
+]
+

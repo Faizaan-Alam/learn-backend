@@ -1,0 +1,8 @@
+//basics of folder structure 
+
+// we create server in src folder in which we have app.js
+//app.js used to create server 
+//server.js used to start server
+//server from app.js are exported and then imported to server.js 
+//module.export app (to export server)
+//we use require function to import in server.js 

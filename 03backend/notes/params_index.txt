@@ -1,0 +1,36 @@
+You want to see the profile of a specific student.
+The address (URL) looks like this:
+https://myschool.com/students/rahul
+Here, "rahul" is like a Param.
+It is a special placeholder that changes depending on whose profile you want to see.
+
+/students/rahul → shows Rahul's profile
+/students/priya → shows Priya's profile
+
+In the backend, we write it like this:
+JavaScript/students/:name
+The :name is a param — it’s like a empty box that gets filled with whatever name is in the URL.
+Simple Analogy:
+Params are like name tags on doors. The door is the same, but the name tag tells the computer "which room (data) to open".
+
+What is "Index" (index.js)?
+Imagine your big toy box is messy.
+Instead of putting every toy directly inside, you make small organized boxes inside it:
+
+One box for cars
+One box for dolls
+One box for blocks
+
+Now, you have one main box that holds all these small organized boxes. That main box is called index.js.
+index.js is like the boss file or main gate of your backend:
+
+It connects the database
+It brings all the routes (roads) together
+It starts the server (turns on the lights)
+
+It’s the first file that runs when you start your app. Everything else is organized inside folders, and index.js controls them.
+
+Super Simple Summary:
+
+Params = The changing name in the website address that tells the computer “show me THIS specific thing”.
+Index.js = The main control room that starts everything and keeps all parts connected nicely.

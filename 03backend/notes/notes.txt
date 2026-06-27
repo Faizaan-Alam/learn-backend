@@ -1,0 +1,34 @@
+API:- application programming interface 
+set of rules or protocol that allows different software programs to communicate 
+jaise backend or frontend ka 
+we consider them as different software 
+
+types of api : restAPI soapAPI rpc API websocket etc
+REST API :- representational state transfer api know for its statelesness  use HTTP  GET POST 
+PUT DELETE are methods used 
+
+What is HTTP?    
+HyperText Transfer Protocol: Foundation of the World Wide Web.
+Application layer protocol used for communication between client (browser) and server.
+Stateless: Each request is independent; server doesn't remember previous requests (use cookies/sessions for state).
+
+How HTTP Works (Request-Response Model)
+
+Client sends HTTP Request.
+Server processes and sends HTTP Response.
+Connection closes (in HTTP/1.1 it can be kept alive).
+Common Methods (Verbs):
+
+GET — Fetch resource
+POST — Send data to create resource
+PUT — Update/replace resource
+DELETE — Delete resource
+PATCH — Partial update
+HEAD — Like GET but no body (metadata only)
+OPTIONS — Check allowed methods
+
+Safe methods: GET, HEAD, OPTIONS (no side effects)
+Idempotent: GET, PUT, DELETE (repeat = same result)
+
+
+    
