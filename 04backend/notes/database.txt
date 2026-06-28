@@ -1,0 +1,19 @@
+if we run our program like this then after the serve is closed we will loose our data cause it 
+is store in ram so we use a proper database to store all our database
+now we will learn about  databases mongodb atlas connection scehema and api with database
+
+in mongo db we create cluster and then store data 
+
+https://www.mongodb.com/  
+create project and then create cluster 
+
+follow the step in given image 
+1mognodb cluster
+then change network access
+
+
+we perform 4 operaton 
+CRUD:- create   read   update   delete
+
+
+install mongodb compass and connect your cluster to it  
