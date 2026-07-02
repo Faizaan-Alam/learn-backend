@@ -1,0 +1,2 @@
+we use req to access the data given tous from frontend 
+we use res to send data from backend to frontend 

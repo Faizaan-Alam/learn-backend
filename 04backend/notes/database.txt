@@ -17,3 +17,32 @@ CRUD:- create   read   update   delete
 
 
 install mongodb compass and connect your cluster to it  
+
+
+
+
+in terminal 
+npm init -y 
+npm i express mongoose
+
+
+
+folder structure
+under sr ccreate db
+
+
+await mongoose.connect("uri ") to connect server with backend 
+
+
+most important thing is to c onnect db to server in fb.js we write logic how db will be connected 
+using mongoose 
+
+
+to store data in db qwe need to tell our database how databsae will look it is called 
+as creating scehema
+under src model note.model.js
+
+
+
+const notemodel = mongoosee.model("notes", notesSchema)   
+ if we need to perform crud opertation then we need  to create model 
